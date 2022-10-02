@@ -26,10 +26,7 @@ function Login() {
     const user = { email, password };
     dispatch(loginUser(user));
   }
-  // function userCredentials(){
-  //   setEmail("user@gmail.com");
-  //   setPassword("user123")
-  // }
+  
   return (
     <>
       <Container>
@@ -80,9 +77,7 @@ function Login() {
                 <p className="text-white">
                   Don't have an account? <Link to="/register"> Register</Link>
                 </p>
-                {/* <Button onClick={userCredentials}>
-                User Credentials
-              </Button> */}
+               
               </div>
             
             </Form>
